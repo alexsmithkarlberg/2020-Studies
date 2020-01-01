@@ -6,8 +6,10 @@ namespace Day1_Counter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            for (int i = 1; i < 11; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
